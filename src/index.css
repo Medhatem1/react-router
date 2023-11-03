@@ -44,10 +44,9 @@ img{
 *{
   scroll-behavior:smooth;
   max-width: 100%;
- 
-  
-  
 }
+  
+  
 input{
   background-color: wheat;
   border: wheat ;
