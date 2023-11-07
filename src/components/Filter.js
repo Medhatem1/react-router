@@ -1,4 +1,4 @@
-const Filter = ({ onFilterTitleChange }) => {
+const Filter = ({ onFilterTitleChange , onFilterYearChange}) => {
   return (
     <div className="filter">
       <input
@@ -10,7 +10,7 @@ const Filter = ({ onFilterTitleChange }) => {
       <input
         type="number"
         placeholder="Filter by rating"
-       
+       onChange={onFilterYearChange}
         
       />
     </div>
